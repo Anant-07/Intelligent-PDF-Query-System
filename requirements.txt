@@ -1,0 +1,13 @@
+langchain
+langchain-core
+langchain-community
+pymupdf
+langchain-text-splitters
+pypdf
+numpy
+faiss-cpu
+scikit-learn
+python-dotenv
+langchain-groq
+streamlit
+# Ollama installed locally (for embeddings)

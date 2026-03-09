@@ -1,0 +1,22 @@
+[project]
+name = "project"
+version = "0.1.0"
+description = "A smart AI tool acts as an interactive chatbot for any lengthy PDF. You can simply upload a document and ask questions in natural language. Using a RAG pipeline and semantic search, it instantly finds exact, hallucination-free answers from the text. It also remembers your previous queries, making document analysis totally effortless."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.4.0",
+    "faiss-cpu>=1.13.2",
+    "ipykernel>=7.1.0",
+    "langchain>=1.2.0",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.5",
+    "langchain-groq>=1.1.1",
+    "langchain-openai>=1.1.6",
+    "langgraph>=1.0.5",
+    "pymupdf>=1.26.7",
+    "pypdf>=6.5.0",
+    "python-dotenv>=1.2.1",
+    "sentence-transformers>=5.2.0",
+    "typesense>=1.3.0",
+]
